@@ -1,0 +1,14 @@
+{
+  "case_id": "Case001",
+  "time_months": 23.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0007958769",
+  "mapping_patient": "bai_lan_qin+0007958769",
+  "recurrence": 0,
+  "recurrence_t_months": 23.0,
+  "metastasis": 0,
+  "metastasis_t_months": 23.0,
+  "survival_status": 1,
+  "death_t_months": 23.0
+}

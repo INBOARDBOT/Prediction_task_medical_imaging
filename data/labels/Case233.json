@@ -1,0 +1,14 @@
+{
+  "case_id": "Case233",
+  "time_months": 33.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0006349002",
+  "mapping_patient": "luo_zhang_ke+0006349002",
+  "recurrence": 1,
+  "recurrence_t_months": 33.0,
+  "metastasis": 0,
+  "metastasis_t_months": 53.0,
+  "survival_status": 1,
+  "death_t_months": 53.0
+}

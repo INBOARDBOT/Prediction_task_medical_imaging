@@ -1,0 +1,14 @@
+{
+  "case_id": "Case282",
+  "time_months": 41.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0006445686",
+  "mapping_patient": "tao_ze_gen+0006445686",
+  "recurrence": 0,
+  "recurrence_t_months": 41.0,
+  "metastasis": 0,
+  "metastasis_t_months": 41.0,
+  "survival_status": 0,
+  "death_t_months": 41.0
+}

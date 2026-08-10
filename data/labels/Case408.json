@@ -1,0 +1,14 @@
+{
+  "case_id": "Case408",
+  "time_months": 62.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0000303965",
+  "mapping_patient": "you_liang_jian+0000303965",
+  "recurrence": 0,
+  "recurrence_t_months": 62.0,
+  "metastasis": 0,
+  "metastasis_t_months": 62.0,
+  "survival_status": 0,
+  "death_t_months": 62.0
+}

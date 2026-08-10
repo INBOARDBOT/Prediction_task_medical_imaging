@@ -1,0 +1,13 @@
+{
+  "event_type": "event",
+  "input_mode": "image",
+  "seed": 123,
+  "img_size": 224,
+  "n_unfrozen_blocks": 1,
+  "backbone_lr": 1e-05,
+  "head_lr": 0.001,
+  "best_epoch": 47,
+  "test_cindex_finetuned": 0.6646884272997032,
+  "frozen_baseline_single_split_test_cindex": 0.588,
+  "frozen_baseline_nested_cv_cindex": 0.643
+}

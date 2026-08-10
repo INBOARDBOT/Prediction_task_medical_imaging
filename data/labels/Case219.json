@@ -1,0 +1,14 @@
+{
+  "case_id": "Case219",
+  "time_months": 28.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0007143403",
+  "mapping_patient": "long_hong_xu+0007143403",
+  "recurrence": 0,
+  "recurrence_t_months": 49.0,
+  "metastasis": 1,
+  "metastasis_t_months": 28.0,
+  "survival_status": 0,
+  "death_t_months": 49.0
+}

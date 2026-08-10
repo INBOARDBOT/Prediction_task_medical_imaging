@@ -1,0 +1,14 @@
+{
+  "case_id": "Case354",
+  "time_months": 54.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0010817436",
+  "mapping_patient": "xu_ji_zhao+0010817436",
+  "recurrence": 0,
+  "recurrence_t_months": 54.0,
+  "metastasis": 0,
+  "metastasis_t_months": 54.0,
+  "survival_status": 0,
+  "death_t_months": 54.0
+}

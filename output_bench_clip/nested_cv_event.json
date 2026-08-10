@@ -1,0 +1,21 @@
+{
+  "event_type": "event",
+  "n_cases": 371,
+  "n_repeats": 5,
+  "n_folds": 5,
+  "n_permutations": 100,
+  "modes": {
+    "image": {
+      "observed_cindex": 0.620250606305578,
+      "null_mean": 0.49722109943411474,
+      "null_std": 0.04558346431538929,
+      "empirical_p_value": 0.0
+    },
+    "both": {
+      "observed_cindex": 0.6007140932363244,
+      "null_mean": 0.4994819455672326,
+      "null_std": 0.043021832193212574,
+      "empirical_p_value": 0.02
+    }
+  }
+}

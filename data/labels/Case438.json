@@ -1,0 +1,14 @@
+{
+  "case_id": "Case438",
+  "time_months": 16.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0005800444",
+  "mapping_patient": "zhang_jia_xiang+0005800444",
+  "recurrence": 0,
+  "recurrence_t_months": 16.0,
+  "metastasis": 0,
+  "metastasis_t_months": 16.0,
+  "survival_status": 1,
+  "death_t_months": 16.0
+}

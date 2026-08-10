@@ -1,0 +1,14 @@
+{
+  "case_id": "Case323",
+  "time_months": 4.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0009645392",
+  "mapping_patient": "wu_deng_gang+0009645392",
+  "recurrence": 0,
+  "recurrence_t_months": 4.0,
+  "metastasis": 0,
+  "metastasis_t_months": 4.0,
+  "survival_status": 0,
+  "death_t_months": 4.0
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "Case287",
+  "time_months": 15.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0014655702",
+  "mapping_patient": "tian_yong_fa+0014655702",
+  "recurrence": 0,
+  "recurrence_t_months": 19.0,
+  "metastasis": 1,
+  "metastasis_t_months": 15.0,
+  "survival_status": 1,
+  "death_t_months": 19.0
+}

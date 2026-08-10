@@ -1,0 +1,14 @@
+{
+  "case_id": "Case429",
+  "time_months": 69.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0003571377",
+  "mapping_patient": "zhang_chun_yan+0003571377",
+  "recurrence": 0,
+  "recurrence_t_months": 69.0,
+  "metastasis": 0,
+  "metastasis_t_months": 69.0,
+  "survival_status": 0,
+  "death_t_months": 69.0
+}

@@ -1,0 +1,131 @@
+{
+  "split_used": "stratified_train.csv",
+  "event_type": "recurrence",
+  "n_train_cases": 260,
+  "corr_threshold": 0.85,
+  "max_features": 15,
+  "n_folds": 5,
+  "seed": 42,
+  "features": [
+    {
+      "name": "original_shape_MeshVolume",
+      "concordance_index": 0.6072103821506969,
+      "concordance_index_std": 0.10010897802725681,
+      "p_value": 0.6260577293165176,
+      "train_mean": 20839.969498894297,
+      "train_std": 12995.411985731416
+    },
+    {
+      "name": "original_shape_Sphericity",
+      "concordance_index": 0.6428683849756858,
+      "concordance_index_std": 0.18662692427690336,
+      "p_value": 0.22455379335740802,
+      "train_mean": 0.5498247300486974,
+      "train_std": 0.05334816648547258
+    },
+    {
+      "name": "original_shape_SurfaceVolumeRatio",
+      "concordance_index": 0.6302476609796368,
+      "concordance_index_std": 0.16361878204005184,
+      "p_value": 0.2617782256382953,
+      "train_mean": 0.34449517935758195,
+      "train_std": 0.0702309284672887
+    },
+    {
+      "name": "original_firstorder_10Percentile",
+      "concordance_index": 0.6327626602611895,
+      "concordance_index_std": 0.14206064187653106,
+      "p_value": 0.10834819638234734,
+      "train_mean": 633.1143399517352,
+      "train_std": 302.43613752168443
+    },
+    {
+      "name": "original_firstorder_Kurtosis",
+      "concordance_index": 0.599846803542171,
+      "concordance_index_std": 0.14070055850237154,
+      "p_value": 0.42899489540414826,
+      "train_mean": 3.4289500410897955,
+      "train_std": 0.8465473821819096
+    },
+    {
+      "name": "original_firstorder_Maximum",
+      "concordance_index": 0.6666259275425579,
+      "concordance_index_std": 0.11726569242444443,
+      "p_value": 0.09935005167202063,
+      "train_mean": 1761.1202561598557,
+      "train_std": 786.1236899434427
+    },
+    {
+      "name": "original_firstorder_TotalEnergy",
+      "concordance_index": 0.6777081531566946,
+      "concordance_index_std": 0.13030663750501,
+      "p_value": 0.1965796032483461,
+      "train_mean": 30075376588.77458,
+      "train_std": 55991054997.699554
+    },
+    {
+      "name": "original_glcm_JointEntropy",
+      "concordance_index": 0.6087227543551913,
+      "concordance_index_std": 0.16955406915180318,
+      "p_value": 0.22139912071809684,
+      "train_mean": 9.369312408738262,
+      "train_std": 0.7207251969285232
+    },
+    {
+      "name": "original_gldm_DependenceNonUniformity",
+      "concordance_index": 0.6554256054612838,
+      "concordance_index_std": 0.10788452762034743,
+      "p_value": 0.32918486004132946,
+      "train_mean": 749.4382638628917,
+      "train_std": 517.2256575010889
+    },
+    {
+      "name": "original_gldm_LargeDependenceHighGrayLevelEmphasis",
+      "concordance_index": 0.6256563219294512,
+      "concordance_index_std": 0.12432397942804173,
+      "p_value": 0.06033174231095153,
+      "train_mean": 11803.075907638147,
+      "train_std": 7606.552098239915
+    },
+    {
+      "name": "original_gldm_LargeDependenceLowGrayLevelEmphasis",
+      "concordance_index": 0.6660452865791335,
+      "concordance_index_std": 0.1552811321568177,
+      "p_value": 0.407140632890018,
+      "train_mean": 0.014358724170958747,
+      "train_std": 0.020085804536878447
+    },
+    {
+      "name": "original_glrlm_LongRunHighGrayLevelEmphasis",
+      "concordance_index": 0.6265946411965808,
+      "concordance_index_std": 0.13098313245503737,
+      "p_value": 0.0374338373192198,
+      "train_mean": 2207.6961771024185,
+      "train_std": 2865.3399231583985
+    },
+    {
+      "name": "original_glszm_SmallAreaLowGrayLevelEmphasis",
+      "concordance_index": 0.7288393868165375,
+      "concordance_index_std": 0.05897730709096197,
+      "p_value": 0.09259965388231589,
+      "train_mean": 0.0029226240399475856,
+      "train_std": 0.0016983499885476422
+    },
+    {
+      "name": "original_glszm_ZoneEntropy",
+      "concordance_index": 0.666721503624318,
+      "concordance_index_std": 0.14734642280321972,
+      "p_value": 0.06662297575257539,
+      "train_mean": 6.715885679374447,
+      "train_std": 0.2939478586826907
+    },
+    {
+      "name": "original_ngtdm_Coarseness",
+      "concordance_index": 0.6626575952530064,
+      "concordance_index_std": 0.13229719142409868,
+      "p_value": 0.23843930551800258,
+      "train_mean": 0.004177870361389811,
+      "train_std": 0.0022592383715473066
+    }
+  ]
+}

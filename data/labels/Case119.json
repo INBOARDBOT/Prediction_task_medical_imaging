@@ -1,0 +1,14 @@
+{
+  "case_id": "Case119",
+  "time_months": 2.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0001781826",
+  "mapping_patient": "huang_kai_xiu+0001781826",
+  "recurrence": 0,
+  "recurrence_t_months": 2.0,
+  "metastasis": 0,
+  "metastasis_t_months": 2.0,
+  "survival_status": 0,
+  "death_t_months": 2.0
+}

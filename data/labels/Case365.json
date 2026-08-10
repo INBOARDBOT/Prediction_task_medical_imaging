@@ -1,0 +1,14 @@
+{
+  "case_id": "Case365",
+  "time_months": 32.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0010248398",
+  "mapping_patient": "yang_dai_yuan+0010248398",
+  "recurrence": 1,
+  "recurrence_t_months": 32.0,
+  "metastasis": 0,
+  "metastasis_t_months": 53.0,
+  "survival_status": 1,
+  "death_t_months": 53.0
+}

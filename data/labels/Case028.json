@@ -1,0 +1,14 @@
+{
+  "case_id": "Case028",
+  "time_months": 7.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0015893147",
+  "mapping_patient": "chen_tian_fu+0015893147",
+  "recurrence": 0,
+  "recurrence_t_months": 7.0,
+  "metastasis": 0,
+  "metastasis_t_months": 7.0,
+  "survival_status": 0,
+  "death_t_months": 7.0
+}

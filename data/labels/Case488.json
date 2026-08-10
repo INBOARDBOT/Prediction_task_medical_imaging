@@ -1,0 +1,14 @@
+{
+  "case_id": "Case488",
+  "time_months": 36.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0004598705",
+  "mapping_patient": "zhu_zhi_an+0004598705",
+  "recurrence": 0,
+  "recurrence_t_months": 48.0,
+  "metastasis": 1,
+  "metastasis_t_months": 36.0,
+  "survival_status": 0,
+  "death_t_months": 48.0
+}

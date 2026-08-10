@@ -1,0 +1,14 @@
+{
+  "case_id": "Case214",
+  "time_months": 54.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0009695156",
+  "mapping_patient": "liu_xing_jian+0009695156",
+  "recurrence": 0,
+  "recurrence_t_months": 66.0,
+  "metastasis": 1,
+  "metastasis_t_months": 54.0,
+  "survival_status": 1,
+  "death_t_months": 66.0
+}

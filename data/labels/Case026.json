@@ -1,0 +1,14 @@
+{
+  "case_id": "Case026",
+  "time_months": 35.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0009188892",
+  "mapping_patient": "chen_min_ming+0009188892",
+  "recurrence": 0,
+  "recurrence_t_months": 35.0,
+  "metastasis": 0,
+  "metastasis_t_months": 35.0,
+  "survival_status": 0,
+  "death_t_months": 35.0
+}

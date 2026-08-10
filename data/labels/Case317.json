@@ -1,0 +1,14 @@
+{
+  "case_id": "Case317",
+  "time_months": 56.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0009686411",
+  "mapping_patient": "wei_zhi_ping+0009686411",
+  "recurrence": 1,
+  "recurrence_t_months": 56.0,
+  "metastasis": 0,
+  "metastasis_t_months": 60.0,
+  "survival_status": 0,
+  "death_t_months": 60.0
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "Case044",
+  "time_months": 56.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0008658404",
+  "mapping_patient": "dan_jun_mei+0008658404",
+  "recurrence": 0,
+  "recurrence_t_months": 56.0,
+  "metastasis": 0,
+  "metastasis_t_months": 56.0,
+  "survival_status": 0,
+  "death_t_months": 56.0
+}

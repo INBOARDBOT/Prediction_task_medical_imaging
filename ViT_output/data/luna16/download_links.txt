@@ -1,0 +1,13 @@
+candidates.csv https://zenodo.org/api/records/3723295/files/candidates.csv/content
+subset5.zip https://zenodo.org/api/records/3723295/files/subset5.zip/content
+subset0.zip https://zenodo.org/api/records/3723295/files/subset0.zip/content
+sampleSubmission.csv https://zenodo.org/api/records/3723295/files/sampleSubmission.csv/content
+annotations.csv https://zenodo.org/api/records/3723295/files/annotations.csv/content
+subset1.zip https://zenodo.org/api/records/3723295/files/subset1.zip/content
+subset2.zip https://zenodo.org/api/records/3723295/files/subset2.zip/content
+subset4.zip https://zenodo.org/api/records/3723295/files/subset4.zip/content
+subset3.zip https://zenodo.org/api/records/3723295/files/subset3.zip/content
+candidates_V2.zip https://zenodo.org/api/records/3723295/files/candidates_V2.zip/content
+subset6.zip https://zenodo.org/api/records/3723295/files/subset6.zip/content
+seg-lungs-LUNA16.zip https://zenodo.org/api/records/3723295/files/seg-lungs-LUNA16.zip/content
+evaluationScript.zip https://zenodo.org/api/records/3723295/files/evaluationScript.zip/content

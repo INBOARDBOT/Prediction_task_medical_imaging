@@ -1,0 +1,28 @@
+{
+  "event_type": "event",
+  "n_cases": 371,
+  "n_repeats": 5,
+  "n_folds": 5,
+  "n_permutations": 100,
+  "modes": {
+    "radiomics": {
+      "observed_cindex": 0.4762193478846672,
+      "null_mean": 0.489843707895446,
+      "null_std": 0.04465832765210864,
+      "empirical_p_value": 0.62
+    },
+    "image": {
+      "observed_cindex": 0.6428186472648881,
+      "null_mean": 0.5080355699272432,
+      "null_std": 0.03686092552319167,
+      "empirical_p_value": 0.0
+    },
+    "both": {
+      "observed_cindex": 0.6166127728375101,
+      "null_mean": 0.5002310697925089,
+      "null_std": 0.039330254514784196,
+      "empirical_p_value": 0.0,
+      "note": "recomputed after switching to TwoBranchCoxHead (separate per-modality linear projections + regularization) in place of naive concatenation. Previous naive-concat value was 0.6243600107787658 (p=0.0) -- essentially unchanged."
+    }
+  }
+}

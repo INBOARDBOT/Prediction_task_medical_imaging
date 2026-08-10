@@ -1,0 +1,14 @@
+{
+  "case_id": "Case234",
+  "time_months": 42.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0009620934",
+  "mapping_patient": "lv_xian_liang+0009620934",
+  "recurrence": 0,
+  "recurrence_t_months": 42.0,
+  "metastasis": 0,
+  "metastasis_t_months": 42.0,
+  "survival_status": 0,
+  "death_t_months": 42.0
+}

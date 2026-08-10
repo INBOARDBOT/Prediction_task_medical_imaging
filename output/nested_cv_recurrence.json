@@ -1,0 +1,27 @@
+{
+  "event_type": "recurrence",
+  "n_cases": 371,
+  "n_repeats": 5,
+  "n_folds": 5,
+  "n_permutations": 100,
+  "modes": {
+    "radiomics": {
+      "observed_cindex": 0.5626582278481013,
+      "null_mean": 0.5012447257383967,
+      "null_std": 0.07271626748765297,
+      "empirical_p_value": 0.2
+    },
+    "image": {
+      "observed_cindex": 0.5314345991561181,
+      "null_mean": 0.5045822784810127,
+      "null_std": 0.07184726743949996,
+      "empirical_p_value": 0.35
+    },
+    "both": {
+      "observed_cindex": 0.5561181434599156,
+      "null_mean": 0.5019388185654008,
+      "null_std": 0.07372921030819211,
+      "empirical_p_value": 0.24
+    }
+  }
+}

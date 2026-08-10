@@ -1,0 +1,14 @@
+{
+  "case_id": "Case384",
+  "time_months": 13.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0005774419",
+  "mapping_patient": "yang_wei_dong+0005774419",
+  "recurrence": 0,
+  "recurrence_t_months": 29.0,
+  "metastasis": 1,
+  "metastasis_t_months": 13.0,
+  "survival_status": 0,
+  "death_t_months": 29.0
+}

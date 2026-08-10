@@ -1,0 +1,98 @@
+# Central config for the radiomics + Merlin -> linear Cox head pipeline.
+#
+# Mirrors config/config.yaml (the DINOv3 pipeline) but swaps the image
+# backbone for the Merlin 3D CT foundation model (stanfordmimi/Merlin,
+# merlin-vlm). Everything downstream of image feature extraction -- the
+# linear/two-branch Cox head, radiomics branch, training, nested CV,
+# baseline -- is identical; only the cached image feature vector changes
+# (Merlin whole-volume 2048-d embedding instead of DINOv3's 384-d CLS token).
+
+data:
+  splits_dir: data/splits
+  train_split: stratified_train.csv
+  valid_split: stratified_valid.csv
+  test_split: stratified_test.csv
+  # Column names in each label json (data/labels/Case*.json) to train on.
+  event_type: event
+  # Each event type has its own time-to-event/censoring column -- these are
+  # NOT interchangeable with time_months (30/371 cases differ, e.g. a case
+  # can die before its recorded recurrence follow-up time). Always pair an
+  # event_type with its matching column here, never a fixed time_column.
+  event_time_columns:
+    event: time_months
+    recurrence: recurrence_t_months
+    metastasis: metastasis_t_months
+    survival_status: death_t_months
+
+radiomics:
+  # Pruned feature list produced by src/feature_prunning/prune_features.py,
+  # one folder per event_type (src/feature_prunning/<event_type>/). Backbone
+  # independent, so the radiomics cache under cache.dir is shared with the
+  # DINOv3 pipeline.
+  selected_features_dir: src/feature_prunning
+  selected_features_file: selected_features.json
+
+image:
+  # "merlin" selects Merlin(ImageEmbedding=True). Weights are auto-downloaded
+  # to the merlin-vlm package's checkpoints/ dir from HuggingFace on first
+  # use -- no local weights_path needed.
+  backbone: merlin
+  embed_dim: 2048
+  # Merlin ingests the WHOLE 3D volume via its own MONAI transform pipeline
+  # (RAS orientation, 1.5x1.5x3 mm resampling, HU window -1000..1000 -> [0,1],
+  # padded/cropped to 224x224x160). The tumor mask is not used -- this is
+  # Merlin's native, as-trained usage. Cropping window params below feed
+  # merlin.data.monai_transforms.ImageTransforms and match its defaults.
+  spacing: [1.5, 1.5, 3.0]
+  hu_min: -1000
+  hu_max: 1000
+  spatial_size: [224, 224, 160]
+
+cache:
+  dir: output/cache
+  # image cache is namespaced by backbone (-> image_features_merlin.npz) so
+  # it never collides with the DINOv3 cache in the same dir.
+  image_features_file: image_features_{backbone}.npz
+  radiomics_features_file: radiomics_features_{event_type}.csv
+  # Persistent cache dir for Merlin's (expensive) MONAI volume preprocessing,
+  # keyed by image content -- reused across extraction re-runs.
+  merlin_monai_dir: output/cache/merlin_monai
+
+model:
+  # input_mode: one of "radiomics", "image", "both". input_dim is derived
+  # automatically at training time from the selected mode + cached feature
+  # dims, not set here.
+  input_mode: both
+  # Used for single-modality modes ("radiomics", "image"): one Linear +
+  # one dropout over the raw features, regularized by training.weight_decay.
+  dropout: 0.3
+  # "both" mode uses TwoBranchCoxHead: separate linear projections per
+  # modality summed at the output, each with its own dropout/weight_decay.
+  # Defaults carried over from the DINOv3 config -- retune for Merlin if its
+  # image branch signal differs.
+  radiomics_dropout: 0.5
+  radiomics_weight_decay: 0.5
+  image_dropout: 0.1
+  image_weight_decay: 0.01
+
+training:
+  n_folds: 5
+  seed: 42
+  epochs: 300
+  patience: 30
+  lr: 0.001
+  weight_decay: 0.01 # single-modality modes only; "both" mode uses model.*_weight_decay per branch
+  device: cpu # linear head is tiny; CPU avoids repeated CUDA context overhead across CV folds
+
+device:
+  # Device selection for the (expensive) Merlin feature-extraction step only.
+  # "auto" queries nvitop and picks the CUDA GPU with the most free memory.
+  extraction_device: auto
+
+output:
+  # Separate from the DINOv3 pipeline's output/ so results never overwrite
+  # each other.
+  dir: output_merlin
+  checkpoint_file: final_model_{event_type}_{input_mode}.pt
+  metrics_file: metrics_{event_type}_{input_mode}.json
+  plots_dir: plots

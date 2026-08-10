@@ -1,0 +1,14 @@
+{
+  "case_id": "Case089",
+  "time_months": 15.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0008085940",
+  "mapping_patient": "ge_jiu_lin+0008085940",
+  "recurrence": 0,
+  "recurrence_t_months": 15.0,
+  "metastasis": 0,
+  "metastasis_t_months": 15.0,
+  "survival_status": 0,
+  "death_t_months": 15.0
+}

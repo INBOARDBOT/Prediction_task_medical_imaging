@@ -1,0 +1,14 @@
+{
+  "case_id": "Case225",
+  "time_months": 12.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0005312737",
+  "mapping_patient": "luo_gang_can+0005312737",
+  "recurrence": 0,
+  "recurrence_t_months": 19.0,
+  "metastasis": 1,
+  "metastasis_t_months": 12.0,
+  "survival_status": 0,
+  "death_t_months": 19.0
+}

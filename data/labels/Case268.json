@@ -1,0 +1,14 @@
+{
+  "case_id": "Case268",
+  "time_months": 43.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0000284476",
+  "mapping_patient": "sui_jian_ming+0000284476",
+  "recurrence": 0,
+  "recurrence_t_months": 43.0,
+  "metastasis": 0,
+  "metastasis_t_months": 43.0,
+  "survival_status": 0,
+  "death_t_months": 43.0
+}

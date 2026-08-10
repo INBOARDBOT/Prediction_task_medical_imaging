@@ -1,0 +1,14 @@
+{
+  "case_id": "Case208",
+  "time_months": 30.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0004575365",
+  "mapping_patient": "liu_shou_shu+0004575365",
+  "recurrence": 0,
+  "recurrence_t_months": 30.0,
+  "metastasis": 0,
+  "metastasis_t_months": 30.0,
+  "survival_status": 1,
+  "death_t_months": 30.0
+}

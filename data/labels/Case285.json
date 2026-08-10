@@ -1,0 +1,14 @@
+{
+  "case_id": "Case285",
+  "time_months": 7.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0000495391",
+  "mapping_patient": "tian_wei_lv+0000495391",
+  "recurrence": 0,
+  "recurrence_t_months": 7.0,
+  "metastasis": 0,
+  "metastasis_t_months": 7.0,
+  "survival_status": 0,
+  "death_t_months": 7.0
+}

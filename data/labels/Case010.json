@@ -1,0 +1,14 @@
+{
+  "case_id": "Case010",
+  "time_months": 57.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0008718961",
+  "mapping_patient": "ceng_xin_zhen+0008718961",
+  "recurrence": 0,
+  "recurrence_t_months": 57.0,
+  "metastasis": 0,
+  "metastasis_t_months": 57.0,
+  "survival_status": 0,
+  "death_t_months": 57.0
+}

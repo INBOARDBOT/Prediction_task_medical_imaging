@@ -1,0 +1,14 @@
+{
+  "case_id": "Case341",
+  "time_months": 27.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0008372225",
+  "mapping_patient": "xie_bing_gui+0008372225",
+  "recurrence": 1,
+  "recurrence_t_months": 27.0,
+  "metastasis": 1,
+  "metastasis_t_months": 28.0,
+  "survival_status": 1,
+  "death_t_months": 34.0
+}

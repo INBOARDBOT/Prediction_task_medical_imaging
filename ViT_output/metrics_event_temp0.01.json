@@ -1,0 +1,14 @@
+{
+  "event_type": "event",
+  "n_train": 260,
+  "n_valid": 56,
+  "n_test": 55,
+  "alpha": 0.5,
+  "lambda_loss": 0.5,
+  "best_epoch": 78,
+  "test_cindex": 0.655786350148368,
+  "test_logrank_p": 0.11588624907971412,
+  "used_pretrained_radiomics": true,
+  "contrastive_loss_final": 4.69832706451416,
+  "contrastive_loss_initial": 17.02521514892578
+}

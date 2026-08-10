@@ -1,0 +1,14 @@
+{
+  "case_id": "Case249",
+  "time_months": 64.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0003017929",
+  "mapping_patient": "peng_mao_lin+0003017929",
+  "recurrence": 0,
+  "recurrence_t_months": 64.0,
+  "metastasis": 0,
+  "metastasis_t_months": 64.0,
+  "survival_status": 1,
+  "death_t_months": 64.0
+}

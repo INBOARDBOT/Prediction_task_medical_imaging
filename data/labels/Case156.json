@@ -1,0 +1,14 @@
+{
+  "case_id": "Case156",
+  "time_months": 6.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0014561048",
+  "mapping_patient": "li_hai+0014561048",
+  "recurrence": 0,
+  "recurrence_t_months": 8.0,
+  "metastasis": 1,
+  "metastasis_t_months": 6.0,
+  "survival_status": 0,
+  "death_t_months": 8.0
+}

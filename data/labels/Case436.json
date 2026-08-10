@@ -1,0 +1,14 @@
+{
+  "case_id": "Case436",
+  "time_months": 70.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0008718361",
+  "mapping_patient": "zhang_huai_xun+0008718361",
+  "recurrence": 0,
+  "recurrence_t_months": 70.0,
+  "metastasis": 0,
+  "metastasis_t_months": 70.0,
+  "survival_status": 0,
+  "death_t_months": 70.0
+}

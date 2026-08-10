@@ -1,0 +1,14 @@
+{
+  "n_cases": 371,
+  "n_repeats": 5,
+  "n_folds": 5,
+  "n_permutations": 30,
+  "nested_epochs": 150,
+  "lambda_loss": 0.5,
+  "alpha": 0.0,
+  "temperature": 0.5,
+  "observed_cindex": 0.5105766639719752,
+  "null_mean": 0.501614569298482,
+  "null_std": 0.04757169916897959,
+  "empirical_p_value": 0.4666666666666667
+}

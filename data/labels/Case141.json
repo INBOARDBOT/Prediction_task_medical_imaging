@@ -1,0 +1,14 @@
+{
+  "case_id": "Case141",
+  "time_months": 5.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0005001748",
+  "mapping_patient": "kang_shi_hua+0005001748",
+  "recurrence": 0,
+  "recurrence_t_months": 86.0,
+  "metastasis": 1,
+  "metastasis_t_months": 5.0,
+  "survival_status": 0,
+  "death_t_months": 86.0
+}

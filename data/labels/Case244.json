@@ -1,0 +1,14 @@
+{
+  "case_id": "Case244",
+  "time_months": 32.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0009808661",
+  "mapping_patient": "mo_yi_jiang+0009808661",
+  "recurrence": 0,
+  "recurrence_t_months": 32.0,
+  "metastasis": 0,
+  "metastasis_t_months": 32.0,
+  "survival_status": 0,
+  "death_t_months": 32.0
+}

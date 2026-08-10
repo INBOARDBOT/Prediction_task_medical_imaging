@@ -1,0 +1,14 @@
+{
+  "case_id": "Case142",
+  "time_months": 11.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0010062667",
+  "mapping_patient": "kang_shu_huai+0010062667",
+  "recurrence": 0,
+  "recurrence_t_months": 11.0,
+  "metastasis": 0,
+  "metastasis_t_months": 11.0,
+  "survival_status": 0,
+  "death_t_months": 11.0
+}

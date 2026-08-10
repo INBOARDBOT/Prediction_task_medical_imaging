@@ -1,0 +1,14 @@
+{
+  "case_id": "Case096",
+  "time_months": 42.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0016115264",
+  "mapping_patient": "guo_cui_lian+0016115264",
+  "recurrence": 0,
+  "recurrence_t_months": 42.0,
+  "metastasis": 1,
+  "metastasis_t_months": 42.0,
+  "survival_status": 0,
+  "death_t_months": 42.0
+}

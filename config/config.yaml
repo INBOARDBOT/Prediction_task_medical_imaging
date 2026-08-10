@@ -1,0 +1,76 @@
+# Central config for the radiomics + DINOv3 -> linear Cox head pipeline.
+
+data:
+  splits_dir: data/splits
+  train_split: stratified_train.csv
+  valid_split: stratified_valid.csv
+  test_split: stratified_test.csv
+  # Column names in each label json (data/labels/Case*.json) to train on.
+  event_type: event
+  # Each event type has its own time-to-event/censoring column -- these are
+  # NOT interchangeable with time_months (30/371 cases differ, e.g. a case
+  # can die before its recorded recurrence follow-up time). Always pair an
+  # event_type with its matching column here, never a fixed time_column.
+  event_time_columns:
+    event: time_months
+    recurrence: recurrence_t_months
+    metastasis: metastasis_t_months
+    survival_status: death_t_months
+
+radiomics:
+  # Pruned feature list produced by src/feature_prunning/prune_features.py,
+  # one folder per event_type (src/feature_prunning/<event_type>/).
+  selected_features_dir: src/feature_prunning
+  selected_features_file: selected_features.json
+
+image:
+  backbone: dinov3_vits16plus
+  weights_path: weights/dinov3_vits16plus_pretrain_lvd1689m-4057cbaa.pth
+  embed_dim: 384
+  img_size: 224
+  # Best axial slice (max tumor area) cropped to the tumor bounding box.
+  roi_margin_px: 16
+
+cache:
+  dir: output/cache
+  image_features_file: image_features_{backbone}.npz
+  radiomics_features_file: radiomics_features_{event_type}.csv
+
+model:
+  # input_mode: one of "radiomics", "image", "both". input_dim is derived
+  # automatically at training time from the selected mode + cached feature
+  # dims, not set here.
+  input_mode: both
+  # Used for single-modality modes ("radiomics", "image"): one Linear +
+  # one dropout over the raw features, regularized by training.weight_decay.
+  dropout: 0.3
+  # "both" mode uses TwoBranchCoxHead instead: separate linear projections
+  # per modality summed at the output, each with its own dropout and
+  # weight_decay below -- radiomics has no established signal on its own
+  # (nested-CV C-index ~0.48) while image does (~0.64), so radiomics gets
+  # much heavier regularization than a single global penalty would give it
+  # when naively concatenated into one layer.
+  radiomics_dropout: 0.5
+  radiomics_weight_decay: 0.5
+  image_dropout: 0.1
+  image_weight_decay: 0.01
+
+training:
+  n_folds: 5
+  seed: 42
+  epochs: 300
+  patience: 30
+  lr: 0.001
+  weight_decay: 0.01 # single-modality modes only; "both" mode uses model.*_weight_decay per branch
+  device: cpu # linear head is tiny; CPU avoids repeated CUDA context overhead across CV folds
+
+device:
+  # Device selection for the (expensive) DINOv3 feature-extraction step only.
+  # "auto" queries nvitop and picks the CUDA GPU with the most free memory.
+  extraction_device: auto
+
+output:
+  dir: output
+  checkpoint_file: final_model_{event_type}_{input_mode}.pt
+  metrics_file: metrics_{event_type}_{input_mode}.json
+  plots_dir: plots

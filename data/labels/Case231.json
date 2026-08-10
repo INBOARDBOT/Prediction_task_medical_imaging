@@ -1,0 +1,14 @@
+{
+  "case_id": "Case231",
+  "time_months": 32.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0011348791",
+  "mapping_patient": "luo_yi_wei+0011348791",
+  "recurrence": 0,
+  "recurrence_t_months": 32.0,
+  "metastasis": 0,
+  "metastasis_t_months": 32.0,
+  "survival_status": 0,
+  "death_t_months": 32.0
+}

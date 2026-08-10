@@ -1,0 +1,14 @@
+{
+  "case_id": "Case425",
+  "time_months": 17.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0010601944",
+  "mapping_patient": "zhan_lin+0010601944",
+  "recurrence": 0,
+  "recurrence_t_months": 17.0,
+  "metastasis": 0,
+  "metastasis_t_months": 17.0,
+  "survival_status": 0,
+  "death_t_months": 17.0
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "Case470",
+  "time_months": 9.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0002407422",
+  "mapping_patient": "zhong_ding_hui+0002407422",
+  "recurrence": 0,
+  "recurrence_t_months": 9.0,
+  "metastasis": 0,
+  "metastasis_t_months": 9.0,
+  "survival_status": 0,
+  "death_t_months": 9.0
+}

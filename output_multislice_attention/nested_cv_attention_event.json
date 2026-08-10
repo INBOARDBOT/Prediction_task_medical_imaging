@@ -1,0 +1,13 @@
+{
+  "event_type": "event",
+  "mode": "image_attention_pool",
+  "attn_dim": 64,
+  "dropout": 0.1,
+  "n_repeats": 5,
+  "n_folds": 5,
+  "n_permutations": 30,
+  "observed_cindex": 0.594920506601994,
+  "null_mean": 0.5042688403844428,
+  "null_std": 0.04082233173924223,
+  "empirical_p_value": 0.03333333333333333
+}

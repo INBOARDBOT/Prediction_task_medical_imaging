@@ -1,0 +1,14 @@
+{
+  "case_id": "Case138",
+  "time_months": 30.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0004972333",
+  "mapping_patient": "jiang_wen+0004972333",
+  "recurrence": 1,
+  "recurrence_t_months": 30.0,
+  "metastasis": 0,
+  "metastasis_t_months": 38.0,
+  "survival_status": 1,
+  "death_t_months": 38.0
+}

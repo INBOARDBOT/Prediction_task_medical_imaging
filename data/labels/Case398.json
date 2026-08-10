@@ -1,0 +1,14 @@
+{
+  "case_id": "Case398",
+  "time_months": 20.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0009199657",
+  "mapping_patient": "ye_su_qiong+0009199657",
+  "recurrence": 0,
+  "recurrence_t_months": 25.0,
+  "metastasis": 1,
+  "metastasis_t_months": 20.0,
+  "survival_status": 1,
+  "death_t_months": 25.0
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "Case235",
+  "time_months": 11.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0012722170",
+  "mapping_patient": "ma_bing_shu+0012722170",
+  "recurrence": 0,
+  "recurrence_t_months": 36.0,
+  "metastasis": 1,
+  "metastasis_t_months": 11.0,
+  "survival_status": 1,
+  "death_t_months": 36.0
+}

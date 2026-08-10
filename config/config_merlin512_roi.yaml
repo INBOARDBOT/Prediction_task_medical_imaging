@@ -1,0 +1,57 @@
+data:
+  splits_dir: data/splits
+  train_split: stratified_train.csv
+  valid_split: stratified_valid.csv
+  test_split: stratified_test.csv
+  event_type: event
+  event_time_columns:
+    event: time_months
+    recurrence: recurrence_t_months
+    metastasis: metastasis_t_months
+    survival_status: death_t_months
+radiomics:
+  selected_features_dir: src/feature_prunning
+  selected_features_file: selected_features.json
+image:
+  backbone: merlin512_roi
+  embed_dim: 512
+  roi_crop: true
+  roi_margin_voxels: 10
+  spacing:
+  - 1.5
+  - 1.5
+  - 3.0
+  hu_min: -1000
+  hu_max: 1000
+  spatial_size:
+  - 224
+  - 224
+  - 160
+  embedding: contrastive
+cache:
+  dir: output/cache
+  image_features_file: image_features_{backbone}.npz
+  radiomics_features_file: radiomics_features_{event_type}.csv
+  merlin_monai_dir: output/cache/merlin_monai_roi
+model:
+  input_mode: both
+  dropout: 0.3
+  radiomics_dropout: 0.5
+  radiomics_weight_decay: 0.5
+  image_dropout: 0.1
+  image_weight_decay: 0.01
+training:
+  n_folds: 5
+  seed: 42
+  epochs: 300
+  patience: 30
+  lr: 0.001
+  weight_decay: 0.01
+  device: cpu
+device:
+  extraction_device: auto
+output:
+  dir: output_merlin512_roi
+  checkpoint_file: final_model_{event_type}_{input_mode}.pt
+  metrics_file: metrics_{event_type}_{input_mode}.json
+  plots_dir: plots

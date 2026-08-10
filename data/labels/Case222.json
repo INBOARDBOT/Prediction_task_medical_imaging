@@ -1,0 +1,14 @@
+{
+  "case_id": "Case222",
+  "time_months": 7.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0011275975",
+  "mapping_patient": "luo_cheng_zhang+0011275975",
+  "recurrence": 0,
+  "recurrence_t_months": 7.0,
+  "metastasis": 0,
+  "metastasis_t_months": 7.0,
+  "survival_status": 0,
+  "death_t_months": 7.0
+}

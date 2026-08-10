@@ -1,0 +1,12 @@
+{
+  "high_risk_died": [
+    "Case398",
+    "Case384",
+    "Case472"
+  ],
+  "low_risk_censored": [
+    "Case282",
+    "Case357",
+    "Case378"
+  ]
+}

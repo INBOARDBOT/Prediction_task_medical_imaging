@@ -1,0 +1,14 @@
+{
+  "case_id": "Case103",
+  "time_months": 18.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0006646959",
+  "mapping_patient": "he_liu_jiang+0006646959",
+  "recurrence": 1,
+  "recurrence_t_months": 18.0,
+  "metastasis": 1,
+  "metastasis_t_months": 26.0,
+  "survival_status": 1,
+  "death_t_months": 57.0
+}

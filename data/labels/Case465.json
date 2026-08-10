@@ -1,0 +1,14 @@
+{
+  "case_id": "Case465",
+  "time_months": 37.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0009753190",
+  "mapping_patient": "zheng_heng_yu+0009753190",
+  "recurrence": 1,
+  "recurrence_t_months": 37.0,
+  "metastasis": 0,
+  "metastasis_t_months": 49.0,
+  "survival_status": 1,
+  "death_t_months": 49.0
+}

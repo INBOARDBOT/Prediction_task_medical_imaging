@@ -1,0 +1,14 @@
+{
+  "case_id": "Case335",
+  "time_months": 22.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0016027845",
+  "mapping_patient": "xiang_xiu_zhen+0016027845",
+  "recurrence": 0,
+  "recurrence_t_months": 31.0,
+  "metastasis": 1,
+  "metastasis_t_months": 22.0,
+  "survival_status": 1,
+  "death_t_months": 31.0
+}

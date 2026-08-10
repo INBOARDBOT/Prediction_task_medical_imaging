@@ -1,0 +1,14 @@
+{
+  "case_id": "Case256",
+  "time_months": 5.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0013622036",
+  "mapping_patient": "qing_li_hua+0013622036",
+  "recurrence": 1,
+  "recurrence_t_months": 5.0,
+  "metastasis": 0,
+  "metastasis_t_months": 5.0,
+  "survival_status": 0,
+  "death_t_months": 5.0
+}

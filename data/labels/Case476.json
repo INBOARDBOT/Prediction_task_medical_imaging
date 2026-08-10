@@ -1,0 +1,14 @@
+{
+  "case_id": "Case476",
+  "time_months": 67.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0007755680",
+  "mapping_patient": "zhou_hai_jun+0007755680",
+  "recurrence": 0,
+  "recurrence_t_months": 67.0,
+  "metastasis": 0,
+  "metastasis_t_months": 67.0,
+  "survival_status": 0,
+  "death_t_months": 67.0
+}

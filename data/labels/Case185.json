@@ -1,0 +1,14 @@
+{
+  "case_id": "Case185",
+  "time_months": 49.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0010499076",
+  "mapping_patient": "li_zhang_ling+0010499076",
+  "recurrence": 1,
+  "recurrence_t_months": 49.0,
+  "metastasis": 0,
+  "metastasis_t_months": 62.0,
+  "survival_status": 1,
+  "death_t_months": 62.0
+}

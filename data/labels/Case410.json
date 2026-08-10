@@ -1,0 +1,14 @@
+{
+  "case_id": "Case410",
+  "time_months": 50.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0009385093",
+  "mapping_patient": "yu_dai_fei+0009385093",
+  "recurrence": 0,
+  "recurrence_t_months": 50.0,
+  "metastasis": 0,
+  "metastasis_t_months": 50.0,
+  "survival_status": 0,
+  "death_t_months": 50.0
+}

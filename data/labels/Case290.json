@@ -1,0 +1,14 @@
+{
+  "case_id": "Case290",
+  "time_months": 51.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0007190939",
+  "mapping_patient": "wan_yong_gang+0007190939",
+  "recurrence": 0,
+  "recurrence_t_months": 51.0,
+  "metastasis": 0,
+  "metastasis_t_months": 51.0,
+  "survival_status": 0,
+  "death_t_months": 51.0
+}

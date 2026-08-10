@@ -1,0 +1,14 @@
+{
+  "case_id": "Case188",
+  "time_months": 43.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0015426166",
+  "mapping_patient": "liao_dan+0015426166",
+  "recurrence": 0,
+  "recurrence_t_months": 43.0,
+  "metastasis": 0,
+  "metastasis_t_months": 43.0,
+  "survival_status": 0,
+  "death_t_months": 43.0
+}

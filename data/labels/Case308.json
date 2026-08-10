@@ -1,0 +1,14 @@
+{
+  "case_id": "Case308",
+  "time_months": 49.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0009205803",
+  "mapping_patient": "wang_li_rong+0009205803",
+  "recurrence": 0,
+  "recurrence_t_months": 65.0,
+  "metastasis": 1,
+  "metastasis_t_months": 49.0,
+  "survival_status": 1,
+  "death_t_months": 63.0
+}

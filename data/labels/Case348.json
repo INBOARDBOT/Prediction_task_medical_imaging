@@ -1,0 +1,14 @@
+{
+  "case_id": "Case348",
+  "time_months": 3.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0015542824",
+  "mapping_patient": "xie_yuan_jin+0015542824",
+  "recurrence": 0,
+  "recurrence_t_months": 3.0,
+  "metastasis": 0,
+  "metastasis_t_months": 3.0,
+  "survival_status": 0,
+  "death_t_months": 3.0
+}

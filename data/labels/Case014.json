@@ -1,0 +1,14 @@
+{
+  "case_id": "Case014",
+  "time_months": 51.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0009829329",
+  "mapping_patient": "chen_bao_qin+0009829329",
+  "recurrence": 0,
+  "recurrence_t_months": 63.0,
+  "metastasis": 1,
+  "metastasis_t_months": 51.0,
+  "survival_status": 1,
+  "death_t_months": 63.0
+}

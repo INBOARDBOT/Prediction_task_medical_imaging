@@ -1,0 +1,11 @@
+{
+  "n_cases": 371,
+  "n_repeats": 5,
+  "n_folds": 5,
+  "n_permutations": 30,
+  "nested_epochs": 150,
+  "observed_cindex": 0.6090002694691458,
+  "null_mean": 0.5047449025419923,
+  "null_std": 0.026404027233507474,
+  "empirical_p_value": 0.0
+}

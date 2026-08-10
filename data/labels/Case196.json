@@ -1,0 +1,14 @@
+{
+  "case_id": "Case196",
+  "time_months": 11.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0014928065",
+  "mapping_patient": "ling_jiang_qiong+0014928065",
+  "recurrence": 0,
+  "recurrence_t_months": 16.0,
+  "metastasis": 1,
+  "metastasis_t_months": 11.0,
+  "survival_status": 1,
+  "death_t_months": 16.0
+}

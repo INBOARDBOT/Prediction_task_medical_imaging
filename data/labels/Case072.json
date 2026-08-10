@@ -1,0 +1,14 @@
+{
+  "case_id": "Case072",
+  "time_months": 4.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0000430338",
+  "mapping_patient": "fang_jun_ping+0000430338",
+  "recurrence": 0,
+  "recurrence_t_months": 4.0,
+  "metastasis": 0,
+  "metastasis_t_months": 4.0,
+  "survival_status": 0,
+  "death_t_months": 4.0
+}

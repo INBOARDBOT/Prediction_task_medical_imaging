@@ -1,0 +1,14 @@
+{
+  "case_id": "Case203",
+  "time_months": 5.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0010390026",
+  "mapping_patient": "liu_jian_fang+0010390026",
+  "recurrence": 0,
+  "recurrence_t_months": 5.0,
+  "metastasis": 0,
+  "metastasis_t_months": 5.0,
+  "survival_status": 0,
+  "death_t_months": 5.0
+}

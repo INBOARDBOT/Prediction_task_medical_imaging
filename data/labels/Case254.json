@@ -1,0 +1,14 @@
+{
+  "case_id": "Case254",
+  "time_months": 14.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0015233933",
+  "mapping_patient": "qin_jin_xiu+0015233933",
+  "recurrence": 0,
+  "recurrence_t_months": 14.0,
+  "metastasis": 0,
+  "metastasis_t_months": 14.0,
+  "survival_status": 0,
+  "death_t_months": 14.0
+}

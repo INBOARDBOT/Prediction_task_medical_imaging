@@ -1,0 +1,14 @@
+{
+  "case_id": "Case237",
+  "time_months": 47.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0011407070",
+  "mapping_patient": "ma_mu_nai+0011407070",
+  "recurrence": 1,
+  "recurrence_t_months": 47.0,
+  "metastasis": 0,
+  "metastasis_t_months": 49.0,
+  "survival_status": 0,
+  "death_t_months": 49.0
+}

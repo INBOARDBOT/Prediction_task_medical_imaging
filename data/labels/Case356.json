@@ -1,0 +1,14 @@
+{
+  "case_id": "Case356",
+  "time_months": 15.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0008313118",
+  "mapping_patient": "xu_qiong_ying+0008313118",
+  "recurrence": 0,
+  "recurrence_t_months": 15.0,
+  "metastasis": 0,
+  "metastasis_t_months": 15.0,
+  "survival_status": 1,
+  "death_t_months": 15.0
+}

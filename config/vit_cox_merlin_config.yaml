@@ -1,0 +1,54 @@
+# Config for the Merlin ViT-Cox hybrid model (src/ViT_cox_Merlin/): same
+# two-branch architecture as config/vit_cox_config.yaml (paper Fig. 4,
+# p.15 of 2604.21056v1.pdf), but the image branch reuses the **Merlin**
+# 3D-CT foundation-model embedding (2048-d whole-volume vector, cached in
+# the linear_model_Merlin study) instead of the DINOv3 CLS token.
+#
+# Only the image branch changed: everything about the radiomics shallow
+# transformer (tokens cache, LUNA16 masked-token pretraining, fusion,
+# contrastive loss) is identical to the DINOv3 hybrid and is reused
+# verbatim -- those parts are backbone-independent.
+
+data:
+  splits_dir: data/splits
+  train_split: stratified_train.csv
+  valid_split: stratified_valid.csv
+  test_split: stratified_test.csv
+  event_type: event
+  event_time_columns:
+    event: time_months
+    recurrence: recurrence_t_months
+    metastasis: metastasis_t_months
+    survival_status: death_t_months
+
+image:
+  # Merlin whole-volume embeddings cached by src/linear_model_Merlin/
+  # caching_features.py -- 2048-d per case, same 371 cases as DINOv3.
+  cache_file: output/cache/image_features_merlin.npz
+  embed_dim: 2048
+
+radiomics:
+  # Shared with the DINOv3 hybrid -- backbone-independent.
+  tokens_cache: ViT_output/cache/npc_radiomics_tokens.npz
+  pretrained_checkpoint: ViT_output/checkpoints/radiomics_transformer_pretrained.pt
+  embed_dim: 128
+  n_patches: 36
+
+model:
+  alpha: 0.5 # mixed-risk weighting between image/radiomics risk (eq. 3)
+  lambda_loss: 0.5 # Cox vs. contrastive loss weighting (paper's default)
+  temperature: 0.5 # NT-Xent temperature (paper's default)
+
+training:
+  seed: 42
+  epochs: 200
+  patience: 20
+  lr: 0.0001
+  weight_decay: 0.01
+  device: cpu
+
+output:
+  dir: ViT_output_merlin
+  checkpoint_file: hybrid_model_{event_type}.pt
+  metrics_file: metrics_{event_type}.json
+  plots_dir: plots

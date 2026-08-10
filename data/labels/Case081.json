@@ -1,0 +1,14 @@
+{
+  "case_id": "Case081",
+  "time_months": 16.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0005466632",
+  "mapping_patient": "feng_yu_lin+0005466632",
+  "recurrence": 0,
+  "recurrence_t_months": 16.0,
+  "metastasis": 0,
+  "metastasis_t_months": 16.0,
+  "survival_status": 0,
+  "death_t_months": 16.0
+}

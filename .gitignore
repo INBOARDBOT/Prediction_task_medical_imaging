@@ -3,3 +3,14 @@
 
 # Ada Library Information
 *.ali
+
+*.nii.gz
+
+*.pt
+*.pth
+
+*.npz
+
+*.pyc
+
+dinov3/

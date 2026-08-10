@@ -1,0 +1,14 @@
+{
+  "case_id": "Case176",
+  "time_months": 18.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0008362299",
+  "mapping_patient": "li_xiang_dong+0008362299",
+  "recurrence": 0,
+  "recurrence_t_months": 18.0,
+  "metastasis": 0,
+  "metastasis_t_months": 18.0,
+  "survival_status": 0,
+  "death_t_months": 18.0
+}

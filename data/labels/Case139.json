@@ -1,0 +1,14 @@
+{
+  "case_id": "Case139",
+  "time_months": 71.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0008628411",
+  "mapping_patient": "jiang_xue_jun+0008628411",
+  "recurrence": 0,
+  "recurrence_t_months": 71.0,
+  "metastasis": 0,
+  "metastasis_t_months": 71.0,
+  "survival_status": 0,
+  "death_t_months": 71.0
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "Case043",
+  "time_months": 26.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0015066875",
+  "mapping_patient": "dai_jin_quan+0015066875",
+  "recurrence": 1,
+  "recurrence_t_months": 26.0,
+  "metastasis": 0,
+  "metastasis_t_months": 48.0,
+  "survival_status": 1,
+  "death_t_months": 48.0
+}

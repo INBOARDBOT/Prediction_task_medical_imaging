@@ -1,0 +1,28 @@
+{
+  "event_type": "event",
+  "volume_only_test_cindex": 0.56973293768546,
+  "n_permutations": 200,
+  "modes": {
+    "radiomics": {
+      "observed_test_cindex": 0.5905044510385756,
+      "null_mean": 0.5091246290801186,
+      "null_std": 0.09632197284332272,
+      "null_p95": 0.6676557863501483,
+      "empirical_p_value": 0.195
+    },
+    "image": {
+      "observed_test_cindex": 0.599406528189911,
+      "null_mean": 0.4984124629080119,
+      "null_std": 0.10928400169405388,
+      "null_p95": 0.6915430267062314,
+      "empirical_p_value": 0.18
+    },
+    "both": {
+      "observed_test_cindex": 0.49554896142433236,
+      "null_mean": 0.5020029673590504,
+      "null_std": 0.1029072407211189,
+      "null_p95": 0.6648367952522254,
+      "empirical_p_value": 0.525
+    }
+  }
+}

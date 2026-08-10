@@ -1,0 +1,14 @@
+{
+  "case_id": "Case201",
+  "time_months": 28.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0009559412",
+  "mapping_patient": "liu_jia_yin+0009559412",
+  "recurrence": 0,
+  "recurrence_t_months": 28.0,
+  "metastasis": 0,
+  "metastasis_t_months": 28.0,
+  "survival_status": 1,
+  "death_t_months": 28.0
+}

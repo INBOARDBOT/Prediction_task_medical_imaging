@@ -1,0 +1,14 @@
+{
+  "case_id": "Case281",
+  "time_months": 50.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0011329879",
+  "mapping_patient": "tang_xue_zhong+0011329879",
+  "recurrence": 0,
+  "recurrence_t_months": 50.0,
+  "metastasis": 0,
+  "metastasis_t_months": 50.0,
+  "survival_status": 0,
+  "death_t_months": 50.0
+}

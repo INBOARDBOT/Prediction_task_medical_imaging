@@ -1,0 +1,14 @@
+{
+  "case_id": "Case155",
+  "time_months": 55.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0006986736",
+  "mapping_patient": "li_gui_qin+0006986736",
+  "recurrence": 0,
+  "recurrence_t_months": 55.0,
+  "metastasis": 0,
+  "metastasis_t_months": 55.0,
+  "survival_status": 0,
+  "death_t_months": 55.0
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "Case136",
+  "time_months": 11.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0009286276",
+  "mapping_patient": "jiang_shi_cai+0009286276",
+  "recurrence": 0,
+  "recurrence_t_months": 28.0,
+  "metastasis": 1,
+  "metastasis_t_months": 11.0,
+  "survival_status": 1,
+  "death_t_months": 28.0
+}

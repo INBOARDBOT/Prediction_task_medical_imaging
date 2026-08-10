@@ -1,0 +1,14 @@
+{
+  "case_id": "Case482",
+  "time_months": 41.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0006535575",
+  "mapping_patient": "zhou_ya_ling+0006535575",
+  "recurrence": 0,
+  "recurrence_t_months": 41.0,
+  "metastasis": 0,
+  "metastasis_t_months": 41.0,
+  "survival_status": 0,
+  "death_t_months": 41.0
+}

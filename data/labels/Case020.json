@@ -1,0 +1,14 @@
+{
+  "case_id": "Case020",
+  "time_months": 25.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0005886681",
+  "mapping_patient": "chen_guo_zhou+0005886681",
+  "recurrence": 1,
+  "recurrence_t_months": 25.0,
+  "metastasis": 0,
+  "metastasis_t_months": 40.0,
+  "survival_status": 1,
+  "death_t_months": 40.0
+}

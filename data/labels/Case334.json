@@ -1,0 +1,14 @@
+{
+  "case_id": "Case334",
+  "time_months": 21.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0012171436",
+  "mapping_patient": "xiang_qi_qiang+0012171436",
+  "recurrence": 0,
+  "recurrence_t_months": 21.0,
+  "metastasis": 0,
+  "metastasis_t_months": 21.0,
+  "survival_status": 0,
+  "death_t_months": 21.0
+}

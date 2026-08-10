@@ -1,0 +1,14 @@
+{
+  "case_id": "Case059",
+  "time_months": 25.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0000085049",
+  "mapping_patient": "dong_wang_nian+0000085049",
+  "recurrence": 0,
+  "recurrence_t_months": 25.0,
+  "metastasis": 0,
+  "metastasis_t_months": 25.0,
+  "survival_status": 1,
+  "death_t_months": 25.0
+}

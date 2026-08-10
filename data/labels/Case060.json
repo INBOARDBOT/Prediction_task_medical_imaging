@@ -1,0 +1,14 @@
+{
+  "case_id": "Case060",
+  "time_months": 34.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0008175113",
+  "mapping_patient": "dong_xiao_li+0008175113",
+  "recurrence": 1,
+  "recurrence_t_months": 34.0,
+  "metastasis": 0,
+  "metastasis_t_months": 36.0,
+  "survival_status": 0,
+  "death_t_months": 36.0
+}

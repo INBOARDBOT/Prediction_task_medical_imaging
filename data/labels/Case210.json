@@ -1,0 +1,14 @@
+{
+  "case_id": "Case210",
+  "time_months": 30.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0014657996",
+  "mapping_patient": "liu_shu_xiu+0014657996",
+  "recurrence": 0,
+  "recurrence_t_months": 30.0,
+  "metastasis": 0,
+  "metastasis_t_months": 30.0,
+  "survival_status": 0,
+  "death_t_months": 30.0
+}

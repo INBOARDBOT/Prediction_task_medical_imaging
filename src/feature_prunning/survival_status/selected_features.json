@@ -1,0 +1,131 @@
+{
+  "split_used": "stratified_train.csv",
+  "event_type": "survival_status",
+  "n_train_cases": 260,
+  "corr_threshold": 0.85,
+  "max_features": 15,
+  "n_folds": 5,
+  "seed": 42,
+  "features": [
+    {
+      "name": "original_shape_Flatness",
+      "concordance_index": 0.5596942287966697,
+      "concordance_index_std": 0.1173786609462451,
+      "p_value": 0.3349122808597095,
+      "train_mean": 0.4415518678279464,
+      "train_std": 0.09519826222653063
+    },
+    {
+      "name": "original_shape_LeastAxisLength",
+      "concordance_index": 0.5682223386857708,
+      "concordance_index_std": 0.10985871069242648,
+      "p_value": 0.27426057560043415,
+      "train_mean": 23.100970464178225,
+      "train_std": 5.6564149747613195
+    },
+    {
+      "name": "original_shape_Maximum2DDiameterColumn",
+      "concordance_index": 0.5244757033947031,
+      "concordance_index_std": 0.09763577401242056,
+      "p_value": 0.5304716769356681,
+      "train_mean": 56.4014883645076,
+      "train_std": 8.734366676518551
+    },
+    {
+      "name": "original_shape_Maximum2DDiameterRow",
+      "concordance_index": 0.5225938752206213,
+      "concordance_index_std": 0.12977951566655913,
+      "p_value": 0.30835033639253473,
+      "train_mean": 44.423337093048985,
+      "train_std": 10.940854560903935
+    },
+    {
+      "name": "original_shape_SurfaceVolumeRatio",
+      "concordance_index": 0.5281378585360924,
+      "concordance_index_std": 0.1341290630290852,
+      "p_value": 0.59480328120987,
+      "train_mean": 0.34449517935758195,
+      "train_std": 0.0702309284672887
+    },
+    {
+      "name": "original_firstorder_Minimum",
+      "concordance_index": 0.530039632964102,
+      "concordance_index_std": 0.12482059877550358,
+      "p_value": 0.46548641590576156,
+      "train_mean": 60.71313273815005,
+      "train_std": 71.87334505566523
+    },
+    {
+      "name": "original_firstorder_Range",
+      "concordance_index": 0.5293419136497793,
+      "concordance_index_std": 0.06974559266654276,
+      "p_value": 0.26627402502795733,
+      "train_mean": 1700.4071234217056,
+      "train_std": 770.4473713110541
+    },
+    {
+      "name": "original_firstorder_Skewness",
+      "concordance_index": 0.557836361687835,
+      "concordance_index_std": 0.07296484032549837,
+      "p_value": 0.3311231793064101,
+      "train_mean": -0.6082433287396686,
+      "train_std": 0.38479616928335
+    },
+    {
+      "name": "original_firstorder_TotalEnergy",
+      "concordance_index": 0.5177267238598153,
+      "concordance_index_std": 0.10507970320579244,
+      "p_value": 0.40510977761040634,
+      "train_mean": 30075376588.77458,
+      "train_std": 55991054997.699554
+    },
+    {
+      "name": "original_glcm_DifferenceAverage",
+      "concordance_index": 0.5408511032263772,
+      "concordance_index_std": 0.16948228096393606,
+      "p_value": 0.269270594217,
+      "train_mean": 8.297841751395874,
+      "train_std": 3.914361680259083
+    },
+    {
+      "name": "original_gldm_DependenceNonUniformity",
+      "concordance_index": 0.5491194612720488,
+      "concordance_index_std": 0.13005005114744475,
+      "p_value": 0.2238661966296888,
+      "train_mean": 749.4382638628917,
+      "train_std": 517.2256575010889
+    },
+    {
+      "name": "original_glrlm_GrayLevelNonUniformity",
+      "concordance_index": 0.5372382261777819,
+      "concordance_index_std": 0.16026942618007456,
+      "p_value": 0.34091369818632933,
+      "train_mean": 80.05886341399267,
+      "train_std": 65.30363550425167
+    },
+    {
+      "name": "original_glrlm_RunLengthNonUniformity",
+      "concordance_index": 0.5536360087680918,
+      "concordance_index_std": 0.15830556182750244,
+      "p_value": 0.2586100149605402,
+      "train_mean": 2288.54135317275,
+      "train_std": 1555.3394869390668
+    },
+    {
+      "name": "original_glszm_SmallAreaLowGrayLevelEmphasis",
+      "concordance_index": 0.570642765729905,
+      "concordance_index_std": 0.06631085553281606,
+      "p_value": 0.20340631924586514,
+      "train_mean": 0.0029226240399475856,
+      "train_std": 0.0016983499885476422
+    },
+    {
+      "name": "original_glszm_ZoneEntropy",
+      "concordance_index": 0.5325423103810019,
+      "concordance_index_std": 0.10327871362827035,
+      "p_value": 0.10747304311263914,
+      "train_mean": 6.715885679374447,
+      "train_std": 0.2939478586826907
+    }
+  ]
+}

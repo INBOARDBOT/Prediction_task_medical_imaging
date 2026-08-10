@@ -1,0 +1,14 @@
+{
+  "case_id": "Case318",
+  "time_months": 66.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0008924850",
+  "mapping_patient": "wen_yu_ping+0008924850",
+  "recurrence": 0,
+  "recurrence_t_months": 66.0,
+  "metastasis": 1,
+  "metastasis_t_months": 66.0,
+  "survival_status": 0,
+  "death_t_months": 66.0
+}

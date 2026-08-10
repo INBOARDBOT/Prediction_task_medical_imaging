@@ -1,0 +1,14 @@
+{
+  "case_id": "Case232",
+  "time_months": 7.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0009205460",
+  "mapping_patient": "luo_yu+0009205460",
+  "recurrence": 0,
+  "recurrence_t_months": 14.0,
+  "metastasis": 1,
+  "metastasis_t_months": 7.0,
+  "survival_status": 0,
+  "death_t_months": 14.0
+}

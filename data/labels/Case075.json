@@ -1,0 +1,14 @@
+{
+  "case_id": "Case075",
+  "time_months": 35.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0002744232",
+  "mapping_patient": "feng_chao_ju+0002744232",
+  "recurrence": 0,
+  "recurrence_t_months": 36.0,
+  "metastasis": 1,
+  "metastasis_t_months": 35.0,
+  "survival_status": 0,
+  "death_t_months": 36.0
+}

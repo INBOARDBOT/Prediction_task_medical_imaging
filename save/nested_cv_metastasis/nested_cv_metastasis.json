@@ -1,0 +1,27 @@
+{
+  "event_type": "metastasis",
+  "n_cases": 371,
+  "n_repeats": 5,
+  "n_folds": 5,
+  "n_permutations": 100,
+  "modes": {
+    "radiomics": {
+      "observed_cindex": 0.48559623551015724,
+      "null_mean": 0.4983828761620568,
+      "null_std": 0.04778087490071307,
+      "empirical_p_value": 0.61
+    },
+    "image": {
+      "observed_cindex": 0.5727074486399633,
+      "null_mean": 0.49812119820957185,
+      "null_std": 0.05401683621394571,
+      "empirical_p_value": 0.1
+    },
+    "both": {
+      "observed_cindex": 0.5358659474348675,
+      "null_mean": 0.5046792149661425,
+      "null_std": 0.05456016607006682,
+      "empirical_p_value": 0.29
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "Case088",
+  "time_months": 10.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0007249002",
+  "mapping_patient": "gao_zai_yun+0007249002",
+  "recurrence": 1,
+  "recurrence_t_months": 10.0,
+  "metastasis": 0,
+  "metastasis_t_months": 15.0,
+  "survival_status": 1,
+  "death_t_months": 15.0
+}

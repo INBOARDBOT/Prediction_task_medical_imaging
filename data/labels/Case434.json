@@ -1,0 +1,14 @@
+{
+  "case_id": "Case434",
+  "time_months": 41.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0007044868",
+  "mapping_patient": "zhang_hong_kai+0007044868",
+  "recurrence": 0,
+  "recurrence_t_months": 41.0,
+  "metastasis": 0,
+  "metastasis_t_months": 41.0,
+  "survival_status": 1,
+  "death_t_months": 41.0
+}

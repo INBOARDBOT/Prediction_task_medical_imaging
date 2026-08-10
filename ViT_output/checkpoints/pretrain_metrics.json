@@ -1,0 +1,6 @@
+{
+  "final_train_mse": 0.7960405200719833,
+  "final_val_mse": 0.8791404962539673,
+  "n_samples": 276,
+  "feature_dim": 16
+}

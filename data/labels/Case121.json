@@ -1,0 +1,14 @@
+{
+  "case_id": "Case121",
+  "time_months": 44.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0014513669",
+  "mapping_patient": "huang_ming_you+0014513669",
+  "recurrence": 0,
+  "recurrence_t_months": 44.0,
+  "metastasis": 0,
+  "metastasis_t_months": 44.0,
+  "survival_status": 0,
+  "death_t_months": 44.0
+}

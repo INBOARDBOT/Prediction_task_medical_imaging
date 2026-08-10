@@ -1,0 +1,14 @@
+{
+  "case_id": "Case270",
+  "time_months": 43.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0009938516",
+  "mapping_patient": "sun_deng_li+0009938516",
+  "recurrence": 0,
+  "recurrence_t_months": 55.0,
+  "metastasis": 1,
+  "metastasis_t_months": 43.0,
+  "survival_status": 1,
+  "death_t_months": 55.0
+}

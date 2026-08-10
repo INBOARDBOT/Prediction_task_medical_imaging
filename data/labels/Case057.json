@@ -1,0 +1,14 @@
+{
+  "case_id": "Case057",
+  "time_months": 26.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0008341414",
+  "mapping_patient": "dong_hai_yan+0008341414",
+  "recurrence": 1,
+  "recurrence_t_months": 26.0,
+  "metastasis": 1,
+  "metastasis_t_months": 55.0,
+  "survival_status": 1,
+  "death_t_months": 67.0
+}

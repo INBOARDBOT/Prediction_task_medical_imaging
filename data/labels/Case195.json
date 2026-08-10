@@ -1,0 +1,14 @@
+{
+  "case_id": "Case195",
+  "time_months": 13.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0007647550",
+  "mapping_patient": "lin_zi_jun+0007647550",
+  "recurrence": 0,
+  "recurrence_t_months": 14.0,
+  "metastasis": 1,
+  "metastasis_t_months": 13.0,
+  "survival_status": 1,
+  "death_t_months": 14.0
+}

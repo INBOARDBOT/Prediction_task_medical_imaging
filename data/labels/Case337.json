@@ -1,0 +1,14 @@
+{
+  "case_id": "Case337",
+  "time_months": 18.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0003159378",
+  "mapping_patient": "xiao_han_ping+0003159378",
+  "recurrence": 0,
+  "recurrence_t_months": 18.0,
+  "metastasis": 0,
+  "metastasis_t_months": 18.0,
+  "survival_status": 1,
+  "death_t_months": 18.0
+}

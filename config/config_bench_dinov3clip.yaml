@@ -1,0 +1,46 @@
+data:
+  splits_dir: data/splits
+  train_split: stratified_train.csv
+  valid_split: stratified_valid.csv
+  test_split: stratified_test.csv
+  event_type: event
+  event_time_columns:
+    event: time_months
+    recurrence: recurrence_t_months
+    metastasis: metastasis_t_months
+    survival_status: death_t_months
+radiomics:
+  selected_features_dir: src/feature_prunning
+  selected_features_file: selected_features.json
+image:
+  backbone: dinov3_vits16plus
+  weights_path: weights/dinov3_vits16plus_pretrain_lvd1689m-4057cbaa.pth
+  embed_dim: 384
+  img_size: 224
+  roi_margin_px: 16
+cache:
+  dir: output/cache
+  image_features_file: image_features_dinov3clip.npz
+  radiomics_features_file: radiomics_features_{event_type}.csv
+model:
+  input_mode: both
+  dropout: 0.3
+  radiomics_dropout: 0.5
+  radiomics_weight_decay: 0.5
+  image_dropout: 0.1
+  image_weight_decay: 0.01
+training:
+  n_folds: 5
+  seed: 42
+  epochs: 300
+  patience: 30
+  lr: 0.001
+  weight_decay: 0.01
+  device: cpu
+device:
+  extraction_device: auto
+output:
+  dir: output_bench_dinov3clip
+  checkpoint_file: final_model_{event_type}_{input_mode}.pt
+  metrics_file: metrics_{event_type}_{input_mode}.json
+  plots_dir: plots

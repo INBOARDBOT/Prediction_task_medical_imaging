@@ -1,0 +1,14 @@
+{
+  "case_id": "Case326",
+  "time_months": 12.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0015039301",
+  "mapping_patient": "wu_wen_xiu+0015039301",
+  "recurrence": 0,
+  "recurrence_t_months": 12.0,
+  "metastasis": 0,
+  "metastasis_t_months": 12.0,
+  "survival_status": 0,
+  "death_t_months": 12.0
+}

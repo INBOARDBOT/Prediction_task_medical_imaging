@@ -1,0 +1,14 @@
+{
+  "case_id": "Case371",
+  "time_months": 7.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0010654487",
+  "mapping_patient": "yang_hong_bing+0010654487",
+  "recurrence": 1,
+  "recurrence_t_months": 7.0,
+  "metastasis": 1,
+  "metastasis_t_months": 18.0,
+  "survival_status": 1,
+  "death_t_months": 23.0
+}

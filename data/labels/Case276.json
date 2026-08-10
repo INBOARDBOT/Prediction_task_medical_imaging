@@ -1,0 +1,14 @@
+{
+  "case_id": "Case276",
+  "time_months": 44.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0013259008",
+  "mapping_patient": "tang_ding_xue+0013259008",
+  "recurrence": 1,
+  "recurrence_t_months": 44.0,
+  "metastasis": 1,
+  "metastasis_t_months": 50.0,
+  "survival_status": 0,
+  "death_t_months": 50.0
+}

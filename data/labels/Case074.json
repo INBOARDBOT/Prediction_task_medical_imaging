@@ -1,0 +1,14 @@
+{
+  "case_id": "Case074",
+  "time_months": 28.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0009470642",
+  "mapping_patient": "fang_si_fu+0009470642",
+  "recurrence": 0,
+  "recurrence_t_months": 28.0,
+  "metastasis": 0,
+  "metastasis_t_months": 28.0,
+  "survival_status": 1,
+  "death_t_months": 28.0
+}

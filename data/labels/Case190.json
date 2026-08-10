@@ -1,0 +1,14 @@
+{
+  "case_id": "Case190",
+  "time_months": 5.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0007877748",
+  "mapping_patient": "liao_shu_bing+0007877748",
+  "recurrence": 0,
+  "recurrence_t_months": 5.0,
+  "metastasis": 0,
+  "metastasis_t_months": 5.0,
+  "survival_status": 0,
+  "death_t_months": 5.0
+}

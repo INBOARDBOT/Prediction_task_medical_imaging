@@ -1,0 +1,14 @@
+{
+  "case_id": "Case116",
+  "time_months": 15.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0015481949",
+  "mapping_patient": "hu_xiao_yan+0015481949",
+  "recurrence": 0,
+  "recurrence_t_months": 44.0,
+  "metastasis": 1,
+  "metastasis_t_months": 15.0,
+  "survival_status": 1,
+  "death_t_months": 44.0
+}

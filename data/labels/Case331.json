@@ -1,0 +1,14 @@
+{
+  "case_id": "Case331",
+  "time_months": 76.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0005181712",
+  "mapping_patient": "xia_qi_chen+0005181712",
+  "recurrence": 0,
+  "recurrence_t_months": 76.0,
+  "metastasis": 0,
+  "metastasis_t_months": 76.0,
+  "survival_status": 0,
+  "death_t_months": 76.0
+}

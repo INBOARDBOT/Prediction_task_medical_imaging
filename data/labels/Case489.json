@@ -1,0 +1,14 @@
+{
+  "case_id": "Case489",
+  "time_months": 35.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0012171671",
+  "mapping_patient": "zou_hong+0012171671",
+  "recurrence": 1,
+  "recurrence_t_months": 35.0,
+  "metastasis": 0,
+  "metastasis_t_months": 51.0,
+  "survival_status": 1,
+  "death_t_months": 51.0
+}

@@ -1,0 +1,14 @@
+{
+  "case_id": "Case288",
+  "time_months": 12.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0013613580",
+  "mapping_patient": "tian_yu_kang+0013613580",
+  "recurrence": 0,
+  "recurrence_t_months": 15.0,
+  "metastasis": 1,
+  "metastasis_t_months": 12.0,
+  "survival_status": 1,
+  "death_t_months": 15.0
+}

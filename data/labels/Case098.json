@@ -1,0 +1,14 @@
+{
+  "case_id": "Case098",
+  "time_months": 34.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0007383998",
+  "mapping_patient": "guo_lin_chun+0007383998",
+  "recurrence": 0,
+  "recurrence_t_months": 34.0,
+  "metastasis": 1,
+  "metastasis_t_months": 38.0,
+  "survival_status": 1,
+  "death_t_months": 34.0
+}

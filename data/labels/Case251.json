@@ -1,0 +1,14 @@
+{
+  "case_id": "Case251",
+  "time_months": 39.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0015098899",
+  "mapping_patient": "pu_yu+0015098899",
+  "recurrence": 0,
+  "recurrence_t_months": 39.0,
+  "metastasis": 0,
+  "metastasis_t_months": 39.0,
+  "survival_status": 0,
+  "death_t_months": 39.0
+}

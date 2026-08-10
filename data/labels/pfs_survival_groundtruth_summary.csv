@@ -1,0 +1,9 @@
+﻿item,count
+T1 image count,491
+T2 image count,491
+Common T1/T2 cases,491
+Excel rows,371
+PFS groundtruth cases,371
+Any recurrence/metastasis/death events (event=1),71
+Censored observations (event=0),300
+Unused mapping/Excel rows,120

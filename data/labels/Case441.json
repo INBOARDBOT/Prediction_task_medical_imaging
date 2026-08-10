@@ -1,0 +1,14 @@
+{
+  "case_id": "Case441",
+  "time_months": 52.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0011196253",
+  "mapping_patient": "zhang_ju_hua+0011196253",
+  "recurrence": 0,
+  "recurrence_t_months": 52.0,
+  "metastasis": 0,
+  "metastasis_t_months": 52.0,
+  "survival_status": 0,
+  "death_t_months": 52.0
+}

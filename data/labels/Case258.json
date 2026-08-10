@@ -1,0 +1,14 @@
+{
+  "case_id": "Case258",
+  "time_months": 25.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0012965559",
+  "mapping_patient": "qu_xin_ming+0012965559",
+  "recurrence": 0,
+  "recurrence_t_months": 36.0,
+  "metastasis": 1,
+  "metastasis_t_months": 25.0,
+  "survival_status": 1,
+  "death_t_months": 36.0
+}

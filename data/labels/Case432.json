@@ -1,0 +1,14 @@
+{
+  "case_id": "Case432",
+  "time_months": 72.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0008722774",
+  "mapping_patient": "zhang_guo_kang+0008722774",
+  "recurrence": 0,
+  "recurrence_t_months": 72.0,
+  "metastasis": 0,
+  "metastasis_t_months": 72.0,
+  "survival_status": 0,
+  "death_t_months": 72.0
+}

@@ -1,0 +1,48 @@
+# Merlin ViT-Cox hybrid, ROI-crop variant.
+#
+# Same as config/vit_cox_merlin_config.yaml, but the image branch reuses the
+# ROI-cropped Merlin embeddings (image_features_merlin_roi.npz, produced by
+# src/linear_model_Merlin/caching_features.py with config_merlin_roi.yaml)
+# instead of the whole-volume ones. Radiomics branch is unchanged.
+
+data:
+  splits_dir: data/splits
+  train_split: stratified_train.csv
+  valid_split: stratified_valid.csv
+  test_split: stratified_test.csv
+  event_type: event
+  event_time_columns:
+    event: time_months
+    recurrence: recurrence_t_months
+    metastasis: metastasis_t_months
+    survival_status: death_t_months
+
+image:
+  # ROI-cropped Merlin whole-tumor embeddings (2048-d).
+  cache_file: output/cache/image_features_merlin_roi.npz
+  embed_dim: 2048
+
+radiomics:
+  tokens_cache: ViT_output/cache/npc_radiomics_tokens.npz
+  pretrained_checkpoint: ViT_output/checkpoints/radiomics_transformer_pretrained.pt
+  embed_dim: 128
+  n_patches: 36
+
+model:
+  alpha: 0.5
+  lambda_loss: 0.5
+  temperature: 0.5
+
+training:
+  seed: 42
+  epochs: 200
+  patience: 20
+  lr: 0.0001
+  weight_decay: 0.01
+  device: cpu
+
+output:
+  dir: ViT_output_merlin_roi
+  checkpoint_file: hybrid_model_{event_type}.pt
+  metrics_file: metrics_{event_type}.json
+  plots_dir: plots

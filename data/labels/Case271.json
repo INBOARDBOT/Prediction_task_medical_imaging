@@ -1,0 +1,14 @@
+{
+  "case_id": "Case271",
+  "time_months": 33.0,
+  "event": 1,
+  "event_name": "recurrence",
+  "patient_id": "0007885530",
+  "mapping_patient": "sun_guo_xiang+0007885530",
+  "recurrence": 1,
+  "recurrence_t_months": 33.0,
+  "metastasis": 0,
+  "metastasis_t_months": 33.0,
+  "survival_status": 1,
+  "death_t_months": 37.0
+}

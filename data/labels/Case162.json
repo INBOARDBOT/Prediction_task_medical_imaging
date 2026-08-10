@@ -1,0 +1,14 @@
+{
+  "case_id": "Case162",
+  "time_months": 5.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0007486380",
+  "mapping_patient": "li_jun+0007486380",
+  "recurrence": 0,
+  "recurrence_t_months": 5.0,
+  "metastasis": 0,
+  "metastasis_t_months": 5.0,
+  "survival_status": 0,
+  "death_t_months": 5.0
+}

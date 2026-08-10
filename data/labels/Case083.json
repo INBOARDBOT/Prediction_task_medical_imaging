@@ -1,0 +1,14 @@
+{
+  "case_id": "Case083",
+  "time_months": 8.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0015339466",
+  "mapping_patient": "fu_xue_quan+0015339466",
+  "recurrence": 0,
+  "recurrence_t_months": 8.0,
+  "metastasis": 0,
+  "metastasis_t_months": 8.0,
+  "survival_status": 0,
+  "death_t_months": 8.0
+}

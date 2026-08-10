@@ -1,0 +1,14 @@
+{
+  "case_id": "Case304",
+  "time_months": 6.0,
+  "event": 1,
+  "event_name": "death",
+  "patient_id": "0007807787",
+  "mapping_patient": "wang_ju_ying+0007807787",
+  "recurrence": 0,
+  "recurrence_t_months": 6.0,
+  "metastasis": 0,
+  "metastasis_t_months": 6.0,
+  "survival_status": 1,
+  "death_t_months": 6.0
+}

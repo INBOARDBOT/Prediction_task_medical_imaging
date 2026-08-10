@@ -1,0 +1,14 @@
+{
+  "case_id": "Case183",
+  "time_months": 19.0,
+  "event": 0,
+  "event_name": "censored_no_recurrence_metastasis_death",
+  "patient_id": "0011261654",
+  "mapping_patient": "li_yong_zhong+0011261654",
+  "recurrence": 0,
+  "recurrence_t_months": 19.0,
+  "metastasis": 0,
+  "metastasis_t_months": 19.0,
+  "survival_status": 0,
+  "death_t_months": 19.0
+}

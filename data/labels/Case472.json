@@ -1,0 +1,14 @@
+{
+  "case_id": "Case472",
+  "time_months": 9.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0015437267",
+  "mapping_patient": "zhong_xiao_hua+0015437267",
+  "recurrence": 0,
+  "recurrence_t_months": 35.0,
+  "metastasis": 1,
+  "metastasis_t_months": 9.0,
+  "survival_status": 0,
+  "death_t_months": 35.0
+}

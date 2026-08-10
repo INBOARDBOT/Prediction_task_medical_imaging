@@ -1,0 +1,14 @@
+{
+  "case_id": "Case319",
+  "time_months": 27.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0010576889",
+  "mapping_patient": "wu_bang_hui+0010576889",
+  "recurrence": 0,
+  "recurrence_t_months": 52.0,
+  "metastasis": 1,
+  "metastasis_t_months": 27.0,
+  "survival_status": 0,
+  "death_t_months": 52.0
+}

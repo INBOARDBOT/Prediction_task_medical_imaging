@@ -1,0 +1,14 @@
+{
+  "case_id": "Case471",
+  "time_months": 25.0,
+  "event": 1,
+  "event_name": "metastasis",
+  "patient_id": "0006132093",
+  "mapping_patient": "zhong_wan_yun+0006132093",
+  "recurrence": 0,
+  "recurrence_t_months": 38.0,
+  "metastasis": 1,
+  "metastasis_t_months": 25.0,
+  "survival_status": 0,
+  "death_t_months": 38.0
+}
